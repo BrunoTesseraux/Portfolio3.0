@@ -1,0 +1,88 @@
+.navbar {
+  position: relative;
+
+  .hamburger-menu {
+    display: none; // Hidden by default (desktop view)
+    cursor: pointer;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: var(--text-color);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    @media (max-width: 768px) {
+      display: block; // Show only on mobile
+    }
+
+    &:hover {
+      color: var(--text-light-color);
+    }
+  }
+
+  .nav {
+    &--closed {
+      display: none; // Hide navigation by default on mobile
+    }
+
+    &--open {
+      display: block; // Show navigation when menu is open
+    }
+
+    @media (min-width: 768px) {
+      &--closed,
+      &--open {
+        display: block; // Always show navigation on desktop
+      }
+    }
+
+    &__accordion-item {
+      margin-bottom: 10px;
+
+      .nav__accordion-header {
+        cursor: pointer;
+        padding: 10px;
+        font-weight: bold;
+        background: none;
+        border: none;
+        color: var(--text-color);
+        transition: background-color 0.3s;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        &--active {
+          color: var(--text-light-color);
+        }
+      }
+
+      .nav__accordion-body {
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+
+        .nav__subpoint-list {
+          padding-left: 20px;
+          list-style: none;
+
+          .nav__subpoint-item {
+            padding: 5px 0;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+              color: var(--text-light-color);
+            }
+
+            &--active {
+              font-weight: bold;
+              transform: translateX(15px);
+              color: var(--text-light-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}

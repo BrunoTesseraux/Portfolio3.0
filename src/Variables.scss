@@ -1,0 +1,78 @@
+/* ==================================================
+   Global Variables
+================================================== */
+:root {
+
+  --mouse-x: 50vw; /* Default center of the screen */
+  --mouse-y: 50vh; /* Default center of the screen */
+  /* Colors */
+  --primary-color: #a40e4c; /* Primary color (e.g., buttons or links) */
+  --secondary-color: #b33951; /* Secondary color (e.g., accents) */
+  --background-color: #111729; /* Default background color */
+  --text-color: #7797fffa; /* Standard text color */
+  --text-light-color: #edf7f6; /* For secondary text */
+  --accent-color: #0f0395; /* Accent color */
+
+  /* light Mode Colors */
+  --light-background-color: #121212; /* light mode background */
+  --light-text-color: #ffffff; /* Text color in light mode */
+  --light-accent-color: #bb86fc; /* Accent color in light mode */
+
+  /* Status Colors */
+  --success-color: #4caf50;
+  --warning-color: #ffc107;
+  --error-color: #f44336;
+  --info-color: #2196f3;
+
+  /* Typography */
+  --font-family-primary: 'Roboto', sans-serif;
+  --font-family-secondary: 'Montserrat', sans-serif;
+
+  --font-size-base: 16px; /* Base font size */
+  --font-size-sm: 14px; /* Small font size */
+  --font-size-lg: 18px; /* Larger font size */
+  --font-size-xl: 24px; /* Heading font size */
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-light: 300;
+
+  --line-height-base: 1.5;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  /* Dynamic Spacing */
+  --dynamic-spacing-xs: 10%;
+
+  /* Breakpoints */
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1280px;
+  --breakpoint-xl: 1440px;
+
+  /* Shadows and Effects */
+  --box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow-hover: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  --transition: 0.5s ease-in-out;
+}
+
+/* ==================================================
+   Global Resets // actual styles Top should be cleand up at some point 
+================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

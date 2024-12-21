@@ -1,0 +1,106 @@
+Home 
+    Hero
+        Dies ist der erste Eindruck deiner Seite, daher sollte er sowohl einfach als auch eindrucksvoll sein.
+
+        Hauptbild
+
+        Überschrift: Deine Ideen Mein Code - Gemeinsam zum Erfolg 
+        Unterüberschrift: „Ein leidenschaftlicher Fullstack-Entwickler mit einem Talent für Problemlösungen und der Umsetzung von pixelgenauen Designs.“
+        Call to Action (CTA): „Entdecke meine Projekte“
+        Dynamischer Inhalt:  Technologien wie React, Node.js, SCSS, die nacheinander erscheinen
+
+
+        
+    Ein paar worte zu mir 
+    Problemlösung:
+
+        Eine interaktive „Problemlösungs“-Darstellung. Du könntest ein Problem mit einer Lösung darstellen. Jedes „Problem“ könnte erscheinen, und beim Hover oder Klick würde die „Lösung“ eingeblendet werden. So können Besucher die Herausforderungen und deine Lösungen nachvollziehen.
+        Du könntest Code-Snippets oder Algorithmen zeigen, die du verwendet hast, um reale Probleme zu lösen.
+        Design-Umsetzung:
+
+
+
+        
+        
+    vom konzept zur umsetzung 
+        Erkläre, wie du eng mit Designern zusammenarbeitest, um ihre Mockups in funktionierende Webseiten umzusetzen. Zeige dies durch eine „Vorher-Nachher“-Animation, bei der das Mockup hereinschwebt und das fertige Produkt daneben erscheint. Alternativ könntest du ein Side-by-Side-Design und das Endergebnis nebeneinander zeigen.
+
+
+
+
+
+Was mich ausmacht (About ME)
+    Biografie: Eine kurze Geschichte darüber, wie du zur Entwicklung gekommen bist, was dich daran begeistert und was du an dieser Arbeit liebst.
+    Reise: Eine interaktive Zeitleiste könnte eine interessante Möglichkeit sein, deinen beruflichen Werdegang darzustellen. Hier könntest du Meilensteine wie absolvierte Kurse, wichtige Projekte oder spannende Erfahrungen einbauen.
+    Hobbys: Zeige ein paar deiner Hobbys oder Interessen (z.B. Fotografie, Gaming, Wandern). Dies kannst du mit Bildern oder Icons visuell ansprechend gestalten.
+
+
+Technische Skills (Skills)
+
+
+    Frontend: React, JavaScript, HTML5, CSS3, SCSS, etc.
+    Backend: Node.js, Express, Datenbanken (SQL, NoSQL), etc.
+    Tools: Git, GitHub, npm, Webpack, etc.
+    Nicht-beruflich: Hier könntest du Design-Tools (z.B. Figma, Sketch) oder andere kreative Fähigkeiten zeigen, die für deine Arbeit relevant sind.
+
+
+
+meilensteine meiner Projekte (Portfolio)
+
+    Übersicht: Eine kurze Beschreibung des Projekts, der Herausforderungen und der eingesetzten Tools.
+    Live-Demo: Wenn möglich, Links zu Live-Seiten oder Prototypen.
+    Code-Repository: Links zu den GitHub-Repositories.
+    Schlüssel-Screenshots: Zeige Beispiele oder finale Visualisierungen des Projekts.
+
+mein Lebenslauf (CV)
+Lebenslauf zum download 
+
+Jetzt Kontakt aufnehmen (Contactive)
+
+
+
+
+Über mich (Biografie)
+„Mein Name ist [Dein Name] und ich bin ein Fullstack-Entwickler mit einer Leidenschaft für Problemlösungen und pixelgenaue Design-Umsetzungen. Mein erster Kontakt mit Webentwicklung begann in der Schule – damals noch mit reinem HTML, CSS und JavaScript. Doch bevor ich die Softwareentwicklung zu meinem Beruf machte, war ich in der Gastronomie tätig.
+
+Dort wurde mir klar, wie viele Aufgaben durch Technologie effizienter gestaltet werden könnten. Das hat mich motiviert, meinen ersten Webscraper zu bauen, um wiederkehrende Aufgaben zu automatisieren. Nach einem gesundheitlich bedingten Karrierewechsel habe ich eine Fortbildung zum Fullstack-Entwickler absolviert – ein Schritt, der meine Begeisterung für die Webentwicklung in neue Höhen katapultiert hat.
+
+Besonders viel Freude bereitet mir die Arbeit im Team, um komplexe Probleme zu lösen. Während meines Bootcamps habe ich jedoch entdeckt, dass mir die präzise Umsetzung von Designs außergewöhnlich leichtfällt – ein Talent, das ich in jedem Projekt aufs Neue nutze.“
+
+
+
+Problemlösung: Wie ich Herausforderungen angehe
+Problemlösung steht im Zentrum meiner Arbeit. Egal ob es darum geht, eine neue Funktionalität zu entwickeln oder ein kniffliges technisches Problem zu beheben – ich sehe Herausforderungen als Chancen, zu wachsen und zu lernen.
+
+Während meiner Projekte habe ich gelernt, dass der Schlüssel zu erfolgreichen Lösungen oft in einer Kombination aus Empathie, Transparenz und einem gesunden Gleichgewicht zwischen nachhaltiger Entwicklung und schnellen, pragmatischen Lösungen liegt – je nach Zweck und Ziel des Projekts.
+
+Vom Konzept zur Umsetzung
+Ich arbeite eng mit Designern zusammen, um sicherzustellen, dass ihre Visionen Realität werden. Dabei nutze ich Tools wie Figma und Miro, weiß aber auch, dass Stift und Papier in kleineren Teams oft die effizienteste Methode sind.
+
+Eine meiner Stärken ist es, Designs genau so umzusetzen, wie sie entworfen wurden – ein Talent, das ich immer wieder bei der Umsetzung von Frontend- und Fullstack-Anwendungen unter Beweis gestellt habe.
+
+Technische Fähigkeiten
+Frontend: HTML5, CSS3, SCSS, JavaScript, React
+Backend: Node.js, APIs, Datenbanken (SQL/NoSQL)
+Frameworks: Besonders interessiert an Next.js
+Tools: Git, GitHub, npm, Webpack, Figma, Miro
+Arbeitsweise: Flexible Methoden von klassischem Papier bis hin zu kollaborativen Tools
+Portfolio (Meilensteine meiner Projekte)
+In meinem Portfolio stelle ich die Projekte aus meiner Fortbildung vor, die meinen Entwicklungsweg und meine Fortschritte verdeutlichen:
+
+Meine erste Mini-Webseite – Mein Einstieg in die Webentwicklung.
+Erstes API-Projekt – Der spannende Moment, Daten von externen Quellen zu nutzen.
+Große Frontend-Anwendung – Der erste große Schritt in die Welt komplexer Anwendungen.
+Fullstack-Anwendung – Die größte Herausforderung war hier die Kommunikation im Team – eine echte Lektion im Umgang mit unterschiedlichen Ansprüchen und Arbeitsweisen.
+Mein erstes Portfolio – Ein erster Versuch, meine Arbeit zu präsentieren und dabei viel über UX und Selbstvermarktung zu lernen.
+Alle Projekte wurden mit den zuvor genannten Technologien umgesetzt. Jedes Projekt war ein Meilenstein, der mich persönlich und professionell wachsen ließ.
+
+Hobbys und Interessen
+Auch außerhalb der Arbeit bin ich ein vielseitiger Mensch:
+
+Mountainbiken: Es zeigt mir immer wieder, dass gute Vorbereitung der Schlüssel zum Erfolg ist.
+Bouldern: Hier lerne ich, dass auch scheinbar unerreichbare Ziele mit Übung und Beharrlichkeit erreichbar sind.
+Festivalorganisation: Eine intensive Erfahrung im Projektmanagement – schnelllebig, chaotisch, aber unglaublich erfüllend.
+Basteln und Wandern: Diese Hobbys halten meine Kreativität und meinen Fokus in Balance.
+Zukunft und Visionen
+Ich möchte mich zukünftig intensiver mit Künstlicher Intelligenz beschäftigen. Sie bietet spannende neue Möglichkeiten, die Art und Weise zu verändern, wie wir Probleme lösen und Software entwickeln. Dabei bleibe ich meinen Werten treu: Transparenz, Empathie und eine Balance zwischen nachhaltiger Entwicklung und schnellen Ergebnissen.
