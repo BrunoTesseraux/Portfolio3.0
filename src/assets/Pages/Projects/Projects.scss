@@ -1,0 +1,74 @@
+.projects {
+    width: 100%;
+
+    /* Dim all items when hovering over the container */
+    &:hover {
+        .projects__item {
+            opacity: 0.5; /* Dim all items */
+            transition: opacity 0.3s ease; /* Smooth transition */
+        }
+    }
+
+    .projects__list {
+        .projects__item {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 20px;
+            gap: 20px;
+            transition: opacity 0.3s ease; /* Smooth transition for dimming */
+            border-top: 1px solid #ffffff00; 
+            border-left: 1px solid #ffffff00; 
+            border-right: 1px solid #ffffff00; 
+            border-bottom: 1px solid #ffffff00; 
+            /* Restore full opacity and add link icon animation on hover */
+            &:hover {
+                opacity: 1; /* Restore original opacity */
+                background-color: #ffffff15;
+                border-radius: 5px;
+                border-top: 1px solid #ffffff39; 
+                border-left: 1px solid #ffffff39; 
+                border-right: 1px solid #02020215; 
+                border-bottom: 1px solid #02020215; 
+                .projects__link-icon {
+                    transform: translateY(-5px); /* Move icon up */
+                    transition: transform 0.3s ease; /* Smooth transition for icon movement */
+                }
+            }
+
+            .projects__screenshot{
+                width: 300px;
+                height: 100%;
+            }
+
+            .projects__details {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .projects__link {
+                    display: flex;
+                    text-decoration: none;
+                    color: inherit;
+
+                    .projects__link-icon {
+                        width: 1rem;
+                        height: 1rem;
+                        transition: transform 0.3s ease; /* Smooth transition for movement */
+                    }
+                }
+            }
+            .projects__technology{
+                border: none;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .projects{
+        .projects__list{
+            .projects__item{
+                flex-direction: column;
+            }
+        }
+    }    
+}

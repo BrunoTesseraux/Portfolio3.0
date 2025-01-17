@@ -33,7 +33,7 @@ const Nav = ({ activePage, setActivePage }) => {
           const section = document.getElementById(subpoint.toLowerCase());
           if (section) {
             const rect = section.getBoundingClientRect();
-            const isVisible = rect.top >= 0 && rect.top <= window.innerHeight * 0.5;
+            const isVisible = rect.top >= 0 && rect.top <= window.innerHeight * 0.7;
             if (isVisible) {
               setActiveSubpoint(subpoint);
             }

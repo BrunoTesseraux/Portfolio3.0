@@ -1,5 +1,6 @@
 .navbar {
   position: relative;
+  padding-top: var(--spacing-xxl);
 
   .hamburger-menu {
     display: none; // Hidden by default (desktop view)
@@ -9,11 +10,10 @@
     border: none;
     color: var(--text-color);
     position: absolute;
-    top: 10px;
-    right: 10px;
 
     @media (max-width: 768px) {
       display: block; // Show only on mobile
+      top: -20px;
     }
 
     &:hover {
@@ -22,32 +22,50 @@
   }
 
   .nav {
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+  &--closed,
+  &--open {
+    display: block; 
+  }
+
+  @media (max-width: 768px) {
     &--closed {
-      display: none; // Hide navigation by default on mobile
+      max-height: 0; 
+      overflow: hidden; 
+      opacity: 0; 
+      visibility: hidden; 
+      position: absolute;
+      top: 50px;
+      right: 0;
     }
 
     &--open {
-      display: block; // Show navigation when menu is open
+      max-height: 300px; 
+      opacity: 1; 
+      visibility: visible; 
+      position: absolute;
+      z-index: 3;
+      top: 50px;
+      right: 0;
+      background-color: #3e4da489;
+      backdrop-filter: blur(5px);
+      border-radius: 5px;
+      padding: 10px;
+      z-index: 9999;
     }
-
-    @media (min-width: 768px) {
-      &--closed,
-      &--open {
-        display: block; // Always show navigation on desktop
-      }
-    }
+  }
 
     &__accordion-item {
       margin-bottom: 10px;
 
       .nav__accordion-header {
         cursor: pointer;
-        padding: 10px;
-        font-weight: bold;
+        padding-inline: 10px;
         background: none;
         border: none;
         color: var(--text-color);
-        transition: background-color 0.3s;
+        transition: color 0.3s;
+        font-size: var(--font-size-lg);
 
         &:hover {
           transform: scale(1.05);
@@ -65,11 +83,15 @@
         .nav__subpoint-list {
           padding-left: 20px;
           list-style: none;
+          @media (max-width: 768px){
+            display: none;
+          }
 
           .nav__subpoint-item {
             padding: 5px 0;
             cursor: pointer;
             transition: 0.3s;
+            font-size: var(--font-size-sm);
 
             &:hover {
               color: var(--text-light-color);

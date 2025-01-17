@@ -70,9 +70,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "poppins-regular";
 }
 
 img {
   max-width: 100%;
   display: block;
+}
+@font-face {
+  font-family: "poppins-regular";
+  src: url(./assets/Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "poppins-bold";
+  src: url(./assets/Fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "poppins-light";
+  src: url(./assets/Fonts/Poppins/Poppins-Light.ttf);
 }

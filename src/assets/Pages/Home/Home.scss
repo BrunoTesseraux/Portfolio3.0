@@ -56,117 +56,116 @@
 
 
 
-//   .home__hero-title {
-//     font-size: 2.5rem;
-//   }
+  .home__hero-title {
+    font-size: 2.5rem;
+  }
   
-//   .home__hero-description {
-//     font-size: 1.2rem;
-//   }
+  .home__hero-description {
+    font-size: 1.2rem;
+  }
   
-//   .home__cta-button {
-//     padding: 10px 20px;
-//     font-size: 1rem;
-//     background-color: #007BFF;
-//     color: white;
-//     border: none;
-//     cursor: pointer;
-//     border-radius: 5px;
-//   }
+  .home__cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
   
-//   .home__cta-button:hover {
-//     background-color: #0056b3;
-//   }
+  .home__cta-button:hover {
+    background-color: #0056b3;
+  }
   
-//   /* Technologien Section */
-//   .home__technologies {
-//     padding: 50px 20px;
-//     text-align: center;
-//     height: 500px;
-//   }
+  /* Technologien Section */
+  .home__technologies {
+    padding: 50px 20px;
+    text-align: center;
+    height: 500px;
+  }
   
-//   .home__technologies-title {
-//     font-size: 1.8rem;
-//   }
+  .home__technologies-title {
+    font-size: 1.8rem;
+  }
   
-//   .home__tech-list {
-//     display: flex;
-//     justify-content: center;
-//     gap: 20px;
-//     opacity: 0;
-//     transition: opacity 1s ease-in-out;
-//   }
+  .home__tech-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
   
-//   .home__tech-list--visible {
-//     opacity: 1;
-//   }
+  .home__tech-list--visible {
+    opacity: 1;
+  }
   
-//   .home__tech-item {
-//     font-size: 1.5rem;
-//   }
+  .home__tech-item {
+    font-size: 1.5rem;
+  }
   
-//   /* Problemlösungs Section */
-//   .home__problem-solving {
-//     padding: 50px 20px;
-//     text-align: center;
-//     height: 70vh;
-//     background-color: #f4f4f4;
-//   }
+  /* Problemlösungs Section */
+  .home__problem-solving {
+    padding: 50px 20px;
+    text-align: center;
+    height: 70vh;
+  }
   
-//   .home__problem-solving-title {
-//     font-size: 1.8rem;
-//   }
+  .home__problem-solving-title {
+    font-size: 1.8rem;
+  }
   
-//   .home__problem-solving-description {
-//     margin-top: 20px;
-//     font-size: 1.2rem;
-//   }
+  .home__problem-solving-description {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
   
-//   .home__problem-solution-container {
-//     display: flex;
-//     justify-content: space-around;
-//     margin-top: 20px;
-//   }
+  .home__problem-solution-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
   
-//   .home__problem, .home__solution {
-//     width: 45%;
-//   }
+  .home__problem, .home__solution {
+    width: 45%;
+  }
   
-//   .home__problem-title, .home__solution-title {
-//     font-size: 1.5rem;
-//   }
+  .home__problem-title, .home__solution-title {
+    font-size: 1.5rem;
+  }
   
-//   .home__problem-description, .home__solution-description {
-//     font-size: 1.2rem;
-//   }
+  .home__problem-description, .home__solution-description {
+    font-size: 1.2rem;
+  }
   
-//   /* Konzept zur Umsetzung Section */
-//   .home__concept-to-implementation {
-//     height: 70vh;
-//     padding: 50px 20px;
-//     text-align: center;
-//   }
+  /* Konzept zur Umsetzung Section */
+  .home__concept-to-implementation {
+    height: 70vh;
+    padding: 50px 20px;
+    text-align: center;
+  }
   
-//   .home__concept-to-implementation-title {
-//     font-size: 1.8rem;
-//   }
+  .home__concept-to-implementation-title {
+    font-size: 1.8rem;
+  }
   
-//   .home__concept-to-implementation-description {
-//     margin-top: 20px;
-//     font-size: 1.2rem;
-//   }
+  .home__concept-to-implementation-description {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
   
-//   .home__before-after {
-//     display: flex;
-//     justify-content: space-around;
-//     margin-top: 20px;
-//   }
+  .home__before-after {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
   
-//   .home__mockup, .home__implementation {
-//     width: 45%;
-//   }
+  .home__mockup, .home__implementation {
+    width: 45%;
+  }
   
-//   .home__mockup-image, .home__implementation-image {
-//     width: 100%;
-//     height: auto;
-//   }
+  .home__mockup-image, .home__implementation-image {
+    width: 100%;
+    height: auto;
+  }

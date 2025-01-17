@@ -1,6 +1,8 @@
 .picture-with-speech-bubble {
     position: relative;
-  
+    img{
+      border-radius: 50%;
+    }
     &__speech-bubble {
       position: absolute;
       bottom: 100%;
