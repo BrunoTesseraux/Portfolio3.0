@@ -11,9 +11,9 @@ const Nav = ({ activePage, setActivePage }) => {
     { label: "Home", subpoints: ["Introduction", "Features", "Gallery"] },
     { label: "AboutMe", subpoints: ["Biography", "Journey", "Hobbies"] },
     { label: "Skills", subpoints: ["Frontend", "Backend", "Tools", "Not work related"] },
-    { label: "Projects", subpoints: ["Project A", "Project B", "Project C"] },
+    { label: "Projects", subpoints: [] },
     { label: "CV", subpoints: [] },
-    { label: "Contact", subpoints: ["Email", "Social Media", "Form"] },
+    { label: "Contact", subpoints: [] },
   ];
 
   useEffect(() => {
@@ -28,18 +28,30 @@ const Nav = ({ activePage, setActivePage }) => {
 
   useEffect(() => {
     const updateActiveSubpoint = () => {
+      let maxVisibleArea = 0;
+      let mostVisibleSubpoint = null;
+
       navItems.forEach((item) => {
         item.subpoints.forEach((subpoint) => {
           const section = document.getElementById(subpoint.toLowerCase());
           if (section) {
             const rect = section.getBoundingClientRect();
-            const isVisible = rect.top >= 0 && rect.top <= window.innerHeight * 0.7;
-            if (isVisible) {
-              setActiveSubpoint(subpoint);
+            const visibleHeight = Math.max(
+              0,
+              Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0)
+            );
+
+            if (visibleHeight > maxVisibleArea) {
+              maxVisibleArea = visibleHeight;
+              mostVisibleSubpoint = subpoint;
             }
           }
         });
       });
+
+      if (mostVisibleSubpoint) {
+        setActiveSubpoint(mostVisibleSubpoint);
+      }
     };
 
     // Call the function once to initialize on load

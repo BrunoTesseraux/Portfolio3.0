@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.scss'; // Dein CSS-File für Styles
+import ImageSlider from '../../Components/ImageSlider/ImgeSlider';
 
 const Home = () => {
   const [techVisible, setTechVisible] = useState(false);
@@ -55,16 +56,7 @@ const Home = () => {
         <p className="home__concept-to-implementation-description">
           Ich arbeite eng mit Designern zusammen, um deren Mockups in funktionierende Webseiten umzusetzen. Hier siehst du einen Vorher-Nachher-Vergleich, der den Prozess der Umwandlung eines Mockups in ein vollständiges Produkt zeigt.
         </p>
-        <div className="home__before-after">
-          <div className="home__mockup">
-            <h3 className="home__mockup-title">Vorher - Mockup</h3>
-            <img className="home__mockup-image" src="mockup_image_path.jpg" alt="Mockup" />
-          </div>
-          <div className="home__implementation">
-            <h3 className="home__implementation-title">Nachher - Umsetzung</h3>
-            <img className="home__implementation-image" src="implementation_image_path.jpg" alt="Umsetzung" />
-          </div>
-        </div>
+        <ImageSlider/>
       </section>
     </div>
   );

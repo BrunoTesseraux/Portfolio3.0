@@ -58,15 +58,17 @@ function App() {
       }, []);
 
     return (
+        <>
         <div className="app__container">
             {/* Left Navigation */}
             <NavContainer activePage={activePage} setActivePage={setActivePage} />
             {/* Right Content Area */}
             <div className="content__container">{renderPage()}
-            <Footer />
             </div>
 
         </div>
+            <Footer />
+        </>
     );
 }
 

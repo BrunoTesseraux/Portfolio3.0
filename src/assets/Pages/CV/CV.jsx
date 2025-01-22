@@ -1,9 +1,11 @@
+import "./CV.scss"
+
 const CV = () => {
     // Path to your PDF file
     const pdfUrl = '/CV_Bruno.pdf';
 
     return (
-        <div className="cv-container" style={{ textAlign: 'center', padding: '20px' }}>
+        <div className="cv" style={{ textAlign: 'center', padding: '20px' }}>
             <h1>Lebenslauf</h1>
             
             {/* Embed PDF in an iframe */}
@@ -11,8 +13,8 @@ const CV = () => {
     src={pdfUrl}
     title="CV Viewer"
     style={{
-        width: '65vw',
-        height: '75vh',
+        width: '35vw',
+        height: '70vh',
         border: '2px solid #ccc',
         borderRadius: '10px',
         boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',

@@ -18,8 +18,11 @@
   --light-text-color: #ffffff; /* Text color in light mode */
   --light-accent-color: #bb86fc; /* Accent color in light mode */
 
+  /* Gradients */
+  --my-gradient: linear-gradient(-45deg, #1a2a38, #1a2a38);
+
   /* Status Colors */
-  --success-color: #4caf50;
+  --success-color: #86e7d4;
   --warning-color: #ffc107;
   --error-color: #f44336;
   --info-color: #2196f3;
@@ -31,7 +34,7 @@
   --font-size-base: 16px; /* Base font size */
   --font-size-sm: 14px; /* Small font size */
   --font-size-lg: 18px; /* Larger font size */
-  --font-size-xl: 24px; /* Heading font size */
+  --font-size-xl: 48px; /* Heading font size */
 
   --font-weight-regular: 400;
   --font-weight-bold: 700;

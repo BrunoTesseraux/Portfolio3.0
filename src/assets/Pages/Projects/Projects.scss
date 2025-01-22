@@ -1,5 +1,7 @@
 .projects {
     width: 100%;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
 
     /* Dim all items when hovering over the container */
     &:hover {
@@ -44,6 +46,10 @@
                 display: flex;
                 flex-direction: column;
                 gap: 20px;
+                font-size: var(--font-size-sm);
+                .projects__title{
+                    font-size: var(--font-size-xl);
+                }
 
                 .projects__link {
                     display: flex;
@@ -58,7 +64,12 @@
                 }
             }
             .projects__technology{
-                border: none;
+                border: none; 
+                color: var(--text-light-color);
+                background: var(--my-gradient);
+                padding: 2px 16px;
+                border-radius: 50px;
+                margin-right: var(--spacing-xs);
             }
         }
     }
